@@ -1,52 +1,79 @@
-.color {color: red;} 
-body {max-width: 1440px;
+
+.wrapper {
+    max-width: 1440px;
     margin-left: 0px;
     margin-right: 0px;
+    background-color: #3f3f3f;
     text-align: center;
 }
 
-h1 {font-size: 27px; 
-  font-family: Lobster, Monospace; 
-  color: orange;
-  margin-top: 20px;}
+h1 {
+    font-size: 27px; 
+    font-family: Lobster, Monospace; 
+    color: orange;
+    margin-top: 20px;
+    text-align: center;
+}
 
-h2 {font-size: 22px; 
-  font-family: Times New Roman; 
-  color: gray; 
-  margin-left: 2.5px; 
-  margin-right: 2.5px;
-  margin-bottom: 30px;}
+h2 {
+    font-size: 22px; 
+    font-family: Times New Roman; 
+    color: gray; 
+    margin-left: 2.5px; 
+    margin-right: 2.5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
-p1 {font-size: 14px; 
-  font-family: Monospace; 
-  color: orange;}
+h3 {
+    font-size: 13px; 
+    font-family: Monospace; 
+    color: orange; 
+    margin-left: 107.5px;
+    margin-bottom: 75px;
+    text-align: center;
+}
 
-ol {font-size: 14px; 
-  margin-top: 8px; 
-  margin-left: 15px; 
-  margin-right: 15px; 
-  color: gray;
-  text-align: left;}
-h3 {font-size: 13px; 
-  font-family: Monospace; 
-  color: orange; 
-  margin-left: 107.5px;
-  margin-bottom: 75px;
-  text-align: center;
-  }
-p2 {font-size: 8px; 
-  font-family: Monospace; 
-  color: orange;}
-p3 {font-size: 8px; 
-  font-family: Monospace; 
-  color: turquoise;}
-.colonel-image {width: 300px; 
-              margin-left: 25px; 
-              margin-right: 25px;
-              margin: auto;}
+.list {
+    font-size: 14px; 
+    margin-top: 8px; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    color: gray;
+    text-align: left;
+    text-align: center;
+}
 
-.thick-red-border {border-color: orange; 
-                 border-width: 5px; 
-                 border-style: solid;
-                 border-radius: 5%;}
-.gray-background {background-color: #3f3f3f;}
+p1 {
+    font-size: 14px; 
+    font-family: Monospace; 
+    color: orange;
+    text-align: center;
+}
+
+p2 {
+    font-size: 12px; 
+    font-family: Monospace; 
+    color: orange;
+    text-align: center;
+}
+
+.colonel-image {
+    width: 300px; 
+    margin-left: 25px; 
+    margin-right: 25px;
+    margin: auto;
+}
+
+.thick-orange-border {
+    border-color: orange; 
+    border-width: 5px; 
+    border-style: solid;
+    border-radius: 5%;}
+
+
+.footer {
+    font-size: 8px; 
+    font-family: Monospace; 
+    color: turquoise;
+}
